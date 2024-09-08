@@ -26,10 +26,14 @@
         <h1 class="text-center">Hello, World!</h1>
         <p class="text-center">This is an example paragraph. Replace it with your content.</p>
     </div>
+    <div id="practice">
+
+    </div>
     <!-- End your HTML code here -->
     <script>
-        for(let i=3;i<=21;i+=2){
-            console.log(i)
+        for(let i=1;i<11;i++){
+            let num=i*7;
+            $("#practice").append("<p>7x"+i+"="+num+"</p>")
         }
 
         // Add your custom JavaScript here
