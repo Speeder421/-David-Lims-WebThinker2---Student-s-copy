@@ -14,7 +14,7 @@ const onCalcBMIpress = () => {
     let bmi=calculation(weight,height);
     $('#results').removeClass("bg-danger bg-success bg-warning");
     $('#results').html("");
-    $('#results').append("<p>Your bmi is"+bmi.toFixed(1)+"</p>");
+    $('#results').append("<p>Your bmi is "+bmi.toFixed(1)+"</p>");
     
     if (bmi < 18.5){
         
