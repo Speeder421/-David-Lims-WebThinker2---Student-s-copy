@@ -22,12 +22,38 @@
     </div>
     <br>
     <!-- Start your HTML code here -->
-    <div>
-        <h1 class="text-center">Hello, World!</h1>
-        <p class="text-center">This is an example paragraph. Replace it with your content.</p>
+     <div class="align-items-center bg-success text-white">
+
+     </div>
+
+    <!-- <div>
+        <button class="btn-primary" id="addition" onclick="click()">addition</button>
+    </div>
+    <div class="fw-bold">History:</div>
+    <div id="code"> -->
+
     </div>
     <!-- End your HTML code here -->
     <script>
+        let numguess=7
+        let userinput=0
+        do{
+            userinput=promt("enter a number between 1,10")
+        } while(userinput!=numguess);
+        $("#results").html("you have gvuessed correctly");
+    //     const click=()=>{
+    //     let sum=0;
+    //     $("#code").html("");
+    //     while(true){
+    //         let input=parseFloat(promt("Enter a number to add to the sum total of the last number.Press 0 to stop"));
+    //         if (input==0){
+    //             break;
+    //         }
+    //         let oldsum=sum;
+    //         sum+=input;
+    //         $("#code").append("<p>"+oldsum+"+"+input+"="+sum+"</p>")
+    //     }
+    // }
         // Add your custom JavaScript here
     </script>
 </body>
