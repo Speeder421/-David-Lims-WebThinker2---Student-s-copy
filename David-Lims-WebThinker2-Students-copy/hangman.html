@@ -43,13 +43,13 @@
 				<img id="Life" src="David-Lims-WebThinker2-Students-copy/img/hangman-7.svg" alt="hangman">
 			</div>
 			<div class="col">
-				<div id="hint"></div>
+				<div id="hint" class="row"> </div>
 				<div> 
 					<p> Incorrect guess: <span id="Incorrectguess"></span></p>
 				</div>
 				<div>
 					<input type="text" id="guessinput"  maxlength="1" placeholder=" Enter a letter">
-					<button onclick="submitguess()">Submit</button>
+					<button onclick= "submitGuess()" id="submitButton">Submit</button>
 				</div>
 				<div>
 					<button onclick="newgame()">newgame</button>
